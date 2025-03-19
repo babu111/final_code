@@ -20,6 +20,8 @@ fastdds discovery --server-id 0
 
 colcon build --packages-select final
 
+colcon build --packages-select final_code
+
 
 
 ssh ubuntu@10.18.3.92
