@@ -1,0 +1,63 @@
+[1.195s] Invoking command in '/home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code': PYTHONPATH=/home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/final_code build --build-base /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/build install --record /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/install.log --single-version-externally-managed install_data
+[1.629s] running egg_info
+[1.629s] creating build/final_code/final_code.egg-info
+[1.630s] writing build/final_code/final_code.egg-info/PKG-INFO
+[1.630s] writing dependency_links to build/final_code/final_code.egg-info/dependency_links.txt
+[1.630s] writing entry points to build/final_code/final_code.egg-info/entry_points.txt
+[1.631s] writing requirements to build/final_code/final_code.egg-info/requires.txt
+[1.631s] writing top-level names to build/final_code/final_code.egg-info/top_level.txt
+[1.632s] writing manifest file 'build/final_code/final_code.egg-info/SOURCES.txt'
+[1.635s] reading manifest file 'build/final_code/final_code.egg-info/SOURCES.txt'
+[1.636s] writing manifest file 'build/final_code/final_code.egg-info/SOURCES.txt'
+[1.636s] running build
+[1.637s] running build_py
+[1.637s] creating /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/build
+[1.637s] creating /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/build/lib
+[1.637s] creating /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/build/lib/final_code
+[1.637s] copying final_code/arm.py -> /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/build/lib/final_code
+[1.637s] copying final_code/gen3lite_pymoveit2.py -> /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/build/lib/final_code
+[1.637s] copying final_code/car_bonus.py -> /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/build/lib/final_code
+[1.638s] copying final_code/__init__.py -> /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/build/lib/final_code
+[1.638s] copying final_code/arm_bonus.py -> /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/build/lib/final_code
+[1.638s] copying final_code/car.py -> /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/build/lib/final_code
+[1.638s] running install
+[1.639s] running install_lib
+[1.640s] creating /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/python3.10/site-packages/final_code
+[1.640s] copying /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/build/lib/final_code/arm.py -> /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/python3.10/site-packages/final_code
+[1.640s] copying /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/build/lib/final_code/gen3lite_pymoveit2.py -> /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/python3.10/site-packages/final_code
+[1.640s] copying /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/build/lib/final_code/car_bonus.py -> /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/python3.10/site-packages/final_code
+[1.640s] copying /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/build/lib/final_code/__init__.py -> /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/python3.10/site-packages/final_code
+[1.640s] copying /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/build/lib/final_code/arm_bonus.py -> /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/python3.10/site-packages/final_code
+[1.641s] copying /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/build/lib/final_code/car.py -> /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/python3.10/site-packages/final_code
+[1.643s] byte-compiling /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/python3.10/site-packages/final_code/arm.py to arm.cpython-310.pyc
+[1.646s] byte-compiling /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/python3.10/site-packages/final_code/gen3lite_pymoveit2.py to gen3lite_pymoveit2.cpython-310.pyc
+[1.648s] byte-compiling /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/python3.10/site-packages/final_code/car_bonus.py to car_bonus.cpython-310.pyc
+[1.649s] byte-compiling /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/python3.10/site-packages/final_code/__init__.py to __init__.cpython-310.pyc
+[1.649s] byte-compiling /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/python3.10/site-packages/final_code/arm_bonus.py to arm_bonus.cpython-310.pyc
+[1.650s] byte-compiling /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/python3.10/site-packages/final_code/car.py to car.cpython-310.pyc
+[1.650s] running install_data
+[1.651s] creating /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/share/ament_index
+[1.651s] creating /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/share/ament_index/resource_index
+[1.651s] creating /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/share/ament_index/resource_index/packages
+[1.651s] copying resource/final_code -> /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/share/ament_index/resource_index/packages
+[1.651s] copying package.xml -> /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/share/final_code
+[1.651s] creating /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/share/final_code/launch
+[1.652s] copying launch/sort_world.launch.py -> /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/share/final_code/launch
+[1.652s] creating /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/share/final_code/worlds
+[1.652s] copying launch/worlds/sort_world.sdf -> /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/share/final_code/worlds
+[1.652s] running install_egg_info
+[1.655s] Copying build/final_code/final_code.egg-info to /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/python3.10/site-packages/final_code-0.0.1-py3.10.egg-info
+[1.656s] running install_scripts
+[1.691s] Installing arm script to /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/final_code
+[1.691s] Installing arm_bonus script to /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/final_code
+[1.691s] Installing car script to /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/final_code
+[1.691s] Installing car_bonus script to /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/final_code
+[1.691s] Installing gen3lite_pymoveit2 script to /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/final_code
+[1.691s] Installing go_to_position script to /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/final_code
+[1.691s] Installing gripper_position script to /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/final_code
+[1.692s] Installing move_to script to /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/final_code
+[1.692s] Installing real_arm script to /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/final_code
+[1.692s] Installing test script to /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/final_code
+[1.692s] Installing trajectory_from_csv script to /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/final_code
+[1.692s] writing list of installed files to '/home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/install.log'
+[1.734s] Invoked command in '/home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code' returned '0': PYTHONPATH=/home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/install/final_code/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/final_code build --build-base /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/build install --record /home/zeyi19@netid.washington.edu/ningbo_ws/src/final_code/build/final_code/install.log --single-version-externally-managed install_data
