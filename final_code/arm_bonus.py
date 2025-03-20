@@ -99,7 +99,7 @@ def main():
     put_pose = set_pose(-0.243, -0.019, -0.223, -0.549, 0.835, -0.028, -0.030)
 
 
-    # standard arm movement takes 2min 5s
+    # standard arm movement takes 1 min 30s
     
 
     pick_and_place(arm, gripper, bonus_pre_pick_pose, bonus_pick_pose, pre_put_pose1, put_pose)
