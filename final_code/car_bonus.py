@@ -40,10 +40,10 @@ class TurtleBotController(Node):
         self.move(linear_speed=0.12, duration=14)
 
         # turn right 65 degree
-        radian = 92 * 3.14 / 180
+        radian = 95 * 3.14 / 180
         self.move(angular_speed=-radian, duration=1.0)
 
-        self.move(linear_speed=0.12, duration=9)
+        self.move(linear_speed=0.12, duration=9.6)
 
         # turn right 150 degree
         radian = 165 * 3.14 / 180
@@ -51,7 +51,7 @@ class TurtleBotController(Node):
 
         # takes around 47 seconds to complete the first round
 
-        time.sleep(50)
+        time.sleep(60)
         # time.sleep(5)
 
         self.move(linear_speed=0.12, duration=0.2)
@@ -63,16 +63,16 @@ class TurtleBotController(Node):
         self.move(linear_speed=0.12, duration=9.5)
 
         # turn left 80 degree
-        radian = 80 * 3.14 / 180
+        radian = 85 * 3.14 / 180
         self.move(angular_speed=radian, duration=1.0)
         
-        self.move(linear_speed=0.12, duration=14)
+        self.move(linear_speed=0.12, duration=15)
 
         # turn right 92 degree
-        radian = 88 * 3.14 / 180
+        radian = 86 * 3.14 / 180
         self.move(angular_speed=-radian, duration=1.0)
         
-        self.move(linear_speed=0.12, duration=10.2)
+        self.move(linear_speed=0.12, duration=9.7)
 
         radian = 165 * 3.14 / 180
         self.move(angular_speed=-radian/2, duration=2.0)
